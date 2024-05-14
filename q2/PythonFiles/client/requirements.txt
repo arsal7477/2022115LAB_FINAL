@@ -1,2 +1,0 @@
-# PYTHONFILES/Client/requirements.txt
-requests
