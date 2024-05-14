@@ -1,0 +1,11 @@
+# PYTHONFILES/docker-compose.yml
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+  client:
+    build: ./client
+    depends_on:
+      - server
